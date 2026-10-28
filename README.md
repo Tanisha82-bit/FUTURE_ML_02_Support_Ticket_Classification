@@ -95,15 +95,24 @@ Selected model for both targets: **Linear SVM**.
 ```text
 FUTURE_ML_02_Support_Ticket_Classification/
 ├── README.md
+├── Final_Task02.ipynb
 ├── final_task02.py
 ├── customer_support_tickets.csv
-└── images/
-    ├── category_confusion_matrix.png
-    ├── category_model_comparison.png
-    ├── priority_confusion_matrix.png
-    ├── priority_model_comparison.png
-    ├── ticket_type_distribution.png
-    └── ticket_priority_distribution.png
+├── images/
+│   ├── category_confusion_matrix.png
+│   ├── category_model_comparison.png
+│   ├── priority_confusion_matrix.png
+│   ├── priority_model_comparison.png
+│   ├── ticket_type_distribution.png
+│   └── ticket_priority_distribution.png
+├── outputs/
+│   ├── data_quality_audit.csv
+│   ├── model_comparison_results.csv
+│   ├── final_model_summary.csv
+│   ├── category_classification_report.csv
+│   └── priority_predictions.csv
+└── models/
+    └── category_model.pkl
 ```
 
 ## How to Run

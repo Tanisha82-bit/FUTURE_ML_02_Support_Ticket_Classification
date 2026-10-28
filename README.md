@@ -106,13 +106,12 @@ FUTURE_ML_02_Support_Ticket_Classification/
 │   ├── ticket_type_distribution.png
 │   └── ticket_priority_distribution.png
 ├── outputs/
-│   ├── data_quality_audit.csv
-│   ├── model_comparison_results.csv
-│   ├── final_model_summary.csv
-│   ├── category_classification_report.csv
-│   └── priority_predictions.csv
-└── models/
-    └── category_model.pkl
+    ├── data_quality_audit.csv
+    ├── model_comparison_results.csv
+    ├── final_model_summary.csv
+    ├── category_classification_report.csv
+    └── priority_predictions.csv
+
 ```
 
 ## How to Run

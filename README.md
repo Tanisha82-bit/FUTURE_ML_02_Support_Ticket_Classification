@@ -1,5 +1,3 @@
-# FUTURE_ML_02_Support_Ticket_Classification
-
 # FUTURE_ML_02 – Support Ticket Classification
 
 A Natural Language Processing (NLP) project that classifies customer support tickets into categories using machine learning.

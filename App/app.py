@@ -84,7 +84,7 @@ def load_and_train_models():
   from sklearn.pipeline import Pipeline
   from sklearn.svm import LinearSVC
 
-  df = pd.read_csv("customer_support_tickets.csv")
+  df = pd.read_csv("dataset/customer_support_tickets.csv")
   df["Ticket Subject"] = df["Ticket Subject"].fillna("").astype(str)
   df["Ticket Description"] = df["Ticket Description"].fillna("").astype(str)
   df["Text"] = (
